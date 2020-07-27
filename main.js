@@ -28,7 +28,6 @@ function keydownHandler(event) {
     console.log(event.keyCode); 
     if (event.keyCode == '39') { //Right Arrow key 
         snow.pop(); 
-        numSnow ++; 
     } else if (event.keyCode == '37') { //Left Arrow Key 
         snow.push({
             x: Math.randomDec(0, cnv.width),
